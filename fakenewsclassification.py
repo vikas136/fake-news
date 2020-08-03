@@ -19,7 +19,7 @@ from sklearn.naive_bayes import MultinomialNB
 root=Tk()
 root.title("Fake News Classification")
 #root.geometry('800x600')
-root.config(bg="#FAD7A0")
+root.config(bg="#FF00CC")
 
 def upload():
 	global train_data
@@ -66,7 +66,7 @@ def grammer():
 	return X,y
 
 def model_selection():
-	global x_train,x_test,y_train,y_test
+	global x_train,x_test,y_train,y_test  
 	global X
 	global y
 	X,y=grammer()
